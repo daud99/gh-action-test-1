@@ -4,6 +4,6 @@ jobs:
   display-issue:
     runs-on: ubuntu-latest
     steps:
-      - name: Display Event Detail
+      - name: Display Event Details
         run: echo "${{toJSON(github.event)}}"
 
